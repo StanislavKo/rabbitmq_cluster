@@ -1,6 +1,6 @@
-Dockerfiles for building RabbitMQ cluster
+Dockerfiles for building RabbitMQ cluster. Minor refactoring of https://github.com/bijukunjummen/docker-rabbitmq-cluster/ to remove one configuration issue.
 
-Why https://github.com/bijukunjummen/docker-rabbitmq-cluster/ doesn't work
+Minor problem in https://github.com/bijukunjummen/docker-rabbitmq-cluster/
 ------------
 Nodes don't see each other:
 ![cluster overview](images/bijukunjummen_02.png)
