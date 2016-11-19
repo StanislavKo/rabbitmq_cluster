@@ -1,0 +1,47 @@
+bind9:
+  image: stanislavko/rabbitmq_cluster_bind9
+  ports:
+    - "33422:22"
+    - "153:53/udp"
+
+rabbit1:
+  image: stanislavko/rabbitmq_cluster_server
+  hostname: rabbit1
+  dns: 172.17.0.2
+  ports:
+    - "33522:22"
+    - "1180:1180"
+    - "5672:5672"
+    - "15672:15672"
+
+rabbit2:
+  image: stanislavko/rabbitmq_cluster_server
+  hostname: rabbit2
+  dns: 172.17.0.2
+  environment: 
+    - CLUSTER_WITH=rabbit1
+    - RAM_NODE=true
+  ports:
+    - "33523:22"
+    - "1181:1180"
+    - "5673:5672"
+    - "15673:15672"
+
+rabbit3:
+  image: stanislavko/rabbitmq_cluster_server
+  hostname: rabbit3
+  dns: 172.17.0.2
+  environment: 
+    - CLUSTER_WITH=rabbit1   
+  ports:
+    - "33524:22"
+    - "1182:1180"
+    - "5674:5672"
+    - "15674:15672"
+
+
+
+
+
+
+

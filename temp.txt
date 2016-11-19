@@ -1,0 +1,26 @@
+/usr/lib/rabbitmq/bin/rabbitmqctl cluster_status
+/usr/lib/rabbitmq/bin/rabbitmqctl list_parameters
+/etc/bind
+netstat -ntulp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
