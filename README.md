@@ -1,19 +1,19 @@
 Dockerfiles for building RabbitMQ cluster
 
-Why https://github.com/bijukunjummen/docker-rabbitmq-cluster/[bijukunjummen cluster] doesn't work:
+Why https://github.com/bijukunjummen/docker-rabbitmq-cluster/ doesn't work
 ------------
-####Nodes don't see each other
+Nodes don't see each other:
 ![cluster overview](images/bijukunjummen_02.png)
 
-This cluster is configured better:
+This cluster is configured better
 ------------
-####Nodes are accessible from each other
+Nodes are accessible from each other:
 ![cluster overview](images/stanislavko_cluster_status.png)
 
-YAML file:
+YAML file
 ------------
-####Typical configuration
+Typical configuration:
 ![cluster overview](images/stanislavko_yaml.png)
 
-####DNS hard code can be found during starting up
+DNS hard code can be found during starting up
 ![cluster overview](images/stanislavko_dns.gif)
