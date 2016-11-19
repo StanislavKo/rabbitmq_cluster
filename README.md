@@ -5,7 +5,7 @@ Why https://github.com/bijukunjummen/docker-rabbitmq-cluster/ doesn't work
 Nodes don't see each other:
 ![cluster overview](images/bijukunjummen_02.png)
 
-This cluster is configured better
+This cluster doesn't have such an issue
 ------------
 Nodes are accessible from each other:
 ![cluster overview](images/stanislavko_cluster_status.png)
