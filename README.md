@@ -1,6 +1,6 @@
 Dockerfiles for building RabbitMQ cluster
 
-Why https://github.com/bijukunjummen/docker-rabbitmq-cluster/ [bijukunjummen cluster] doesn't work:
+Why https://github.com/bijukunjummen/docker-rabbitmq-cluster/[bijukunjummen cluster] doesn't work:
 ------------
 ####Nodes don't see each other
 ![cluster overview](images/bijukunjummen_02.png)
